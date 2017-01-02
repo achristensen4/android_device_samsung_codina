@@ -1,7 +1,7 @@
 #
 # system.prop for GT-I8160
 #
-debug.hwui.render_dirty_regions=false
+debug.hwui.render_dirty_regions=true
 persist.service.adb.enable=1
 persist.sys.usb.config=mtp,adb
 rild.libargs=-d /dev/ttyS0
@@ -19,13 +19,13 @@ ste.cam.front.orientation=270
 ste.dbus.bus.address=unix:path=/dev/socket/dbus_ste
 ste.nmf.autoidle=1
 ste.omx.ctx=0
-ste.special_fast_dormancy=false
+ste.special_fast_dormancy=true
 ste.video.dec.mpeg4.in.size=8192
 ste.video.dec.recycle.delay=1
 ste.video.enc.out.buffercnt=5
 wifi.interface=wlan0
-wifi.supplicant_scan_interval=150
-dalvik.vm.dexopt-data-only=1
+wifi.supplicant_scan_interval=16
+dalvik.vm.dexopt-data-only=0
 ro.config.vc_call_vol_steps=8
 
 # Hardware info
